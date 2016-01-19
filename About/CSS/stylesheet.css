@@ -1,0 +1,88 @@
+h1 {
+  text-align: center;
+  font-family: "Avenir Next";
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.header {
+  text-align: center;
+  padding: 0px;
+  display: block;
+  margin-top: 60px;
+}
+
+.home-image {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.nav {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  padding: 0px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 30px;
+}
+
+.nav-link:link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.image-portfolio {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+.section {
+  width: 600px;
+  font-family: "Avenir Next";
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+}
+
+.footer {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
