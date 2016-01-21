@@ -1,6 +1,9 @@
+body {
+  font-family: "Avenir Next";
+}
+
 h1 {
   text-align: center;
-  font-family: "Avenir Next";
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -22,11 +25,16 @@ h1 {
 }
 
 .nav {
-  font-family: "Avenir Next";
+  width: auto;
+  height: 70px;
   font-size: 20px;
   text-align: center;
   color: black;
+  background-color: white;
   margin-bottom: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 
 .nav-list {
@@ -52,8 +60,8 @@ h1 {
 }
 
 .nav-link:hover {
-  color: black;
-  text-decoration: underline;
+  color: #d6d6d6;
+  text-decoration: none;
 }
 
 .image-portfolio {
@@ -68,7 +76,6 @@ h1 {
 
 .section {
   width: 600px;
-  font-family: "Avenir Next";
   font-size: 20px;
   text-align: left;
   color: black;
@@ -77,12 +84,67 @@ h1 {
   margin-right: auto;
 }
 
+.portfolio {
+  margin-top: 120px;
+}
+
 .about {
+  margin-top: 120px;
+}
+
+.contact {
+  margin-top: 120px;
+}
+
+.footer-box {
+
 }
 
 .footer {
-  font-family: "Avenir Next";
-  font-size: 20px;
   text-align: center;
-  color: black;
+  padding: 0px;
+  display: block;
+  bottom: 0;
+  font-size: 16px;
+  text-align: center;
+  width: auto;
+  height: 150px;
+  margin-top: 120px;
+  background-color: #d6d6d6;
+}
+
+.imprint {
+  margin-bottom: 125px;
+}
+
+.social-media {
+  display: inline-block;
+  float: left;
+}
+
+.instagram-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;;
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-bottom: 110px;
+}
+
+.tumblr-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 110px;
+}
+
+.twitter-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 110px;
 }

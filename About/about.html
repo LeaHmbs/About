@@ -6,7 +6,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="home">
 
     <h1>keinkappes</h1>
     <img src="images/gemuese_mit_frisur_72.jpg" class="home-image"/>
@@ -15,13 +15,16 @@
 
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="" class="nav-link">PORTFOLIO</a>
+          <a href="#home" class="nav-link">HOME</a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link">ABOUT</a>
+          <a href="#portfolio" class="nav-link">PORTFOLIO</a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link">CONTACT</a>
+          <a href="#about" class="nav-link">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">CONTACT</a>
         </li>
       </ul>
 
@@ -30,19 +33,19 @@
   </header>
 
   <section class="section">
-    <div class="Portfolio">
+    <div id="portfolio" class="Portfolio">
       <h1>PORTFOLIO</h1>
 
       <img src="images/Mechthild.png" class="image-portfolio"/>
       <img src="images/Schneeimschlappen.png" class="image-portfolio"/>
-      <!--<img src="images/typmitkrone_eingeschneit.png" class="image"/>-->
+      <!--<img src="images/typmitkrone_kalt.png" class="image-portfolio"/>-->
       <img src="images/typmitkrone.png" class="image-portfolio"/>
 
     </div>
   </section>
 
   <section class="section">
-    <div class="About">
+    <div id="about" class="About" style="margin-bottom:500px">
       <h1>ABOUT</h1>
       <p>Hello, there! I am keinkappes.</p>
       <p>I am a child of the Ruhrgebiet drawing things in Berlin since 2015.</p>
@@ -54,17 +57,32 @@
   </section>
 
   <section class="section">
-    <div class="Contact">
+    <div id="contact" class="Contact">
       <h1>CONTACT</h1>
       <p>info@keinkappes.com</p>
       <p>0123/456789</p>
-      <p>Danzigerstraße 133 10407 Berlin</p>
+      <p>Danzigerstraße 133 | 10407 Berlin</p>
+      <p>Send me a message!</p>
 
     </div>
   </section>
 
   <footer class="footer">
+    <div class="imprint">
     <p>IMPRINT</p>
+      <div class="social-media">
+        <a href="https://www.instagram.com/keinkappes/">
+        <img src="images/instagram_icon.png" class="instagram-icon"/>
+        </a>
+        <a href="http://keinkappes.tumblr.com">
+        <img src="images/tumblr_icon.png" class="tumblr-icon"/>
+        </a>
+        <a href="https://twitter.com/keinkappes">
+        <img src="images/twitter_icon.png" class="twitter-icon"/>
+        </a>
+      </div>
+    </div>
+
   </footer>
 
 </body>
