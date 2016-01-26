@@ -90,11 +90,23 @@ h1 {
 }
 
 .image-about {
+  position: absolute;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
   float: left;
   display: flex;
   justify-content: flex-start;
+}
 
+.image-contact {
+  position: absolute;
+  width: 150px;
+  display: inline-block;
+  float: right;
+  margin-left: 400px;
+  margin-top: 400px;
 }
 
 .section {
@@ -107,20 +119,24 @@ h1 {
   margin-right: auto;
 }
 
+.contact-paragraph {
+  position: absolute;
+  margin-top: 250px;
+}
+
 .portfolio {
-  margin-top: 120px;
+  height:auto;
+  width:auto;
 }
 
 .about {
-  margin-top: 120px;
+  height: 100%;
+  width: 100%;
 }
 
 .contact {
-  margin-top: 120px;
-}
-
-.footer-box {
-
+  height: 100%;
+  width: 100%;
 }
 
 .footer {
