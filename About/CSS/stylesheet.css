@@ -64,6 +64,21 @@ h1 {
   text-decoration: none;
 }
 
+.social-media-link:link {
+  color: black;
+  text-decoration: none;
+}
+
+.social-media-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.social-media-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .image-portfolio {
   width: 600px;
   display: block;
@@ -72,6 +87,14 @@ h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px solid black;
+}
+
+.image-about {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+
 }
 
 .section {
